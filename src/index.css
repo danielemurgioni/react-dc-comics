@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: OpenSans, sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 
 img {
@@ -19,6 +19,34 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+/* header */
+
+header {
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav {
+  align-self: center;
+}
+
+/* flex */
+
+.d-flex {
+  display: flex;
 }
