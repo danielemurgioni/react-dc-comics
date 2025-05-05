@@ -45,6 +45,21 @@ nav {
   align-self: center;
 }
 
+/* main */
+
+.content {
+  background-color: black;
+  height: 100px;
+}
+
+h3 {
+  color: white;
+}
+
+.shop {
+  background-color: rgb(52, 164, 255);
+}
+
 /* flex */
 
 .d-flex {
