@@ -8,11 +8,6 @@ body {
   font-family: "OpenSans", sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -35,17 +30,12 @@ header li {
 
 /* main */
 
-.content {
-  background-color: black;
-  height: 100px;
-}
-
 h3 {
   color: white;
 }
 
-.shop {
-  background-color: rgb(52, 164, 255);
+main img {
+  width: 40px;
 }
 
 /* top footer */
@@ -71,6 +61,29 @@ h3 {
 
 #bottom-footer {
   background-color: rgb(43, 43, 43);
+}
+
+/* img */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* bg */
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: rgb(52, 164, 255);
+}
+
+/* height */
+
+.h-200 {
+  height: 200px;
 }
 
 /* paddings */

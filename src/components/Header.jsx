@@ -5,7 +5,7 @@ const Header = () => {
                 <div className="d-flex align-center">
                     <div className="col-20">
                         <figure>
-                            <img src="../src/assets/img/dc-logo.png" alt="Dc Comics" />
+                            <img className="img-fluid" src="../src/assets/img/dc-logo.png" alt="Dc Comics" />
                         </figure>
                     </div>
                     <div className="col-80">
