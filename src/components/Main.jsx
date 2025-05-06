@@ -7,17 +7,6 @@ const Main = () => {
                 <div className="container">
                     <div className="d-flex flex-wrap">
                         <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
-                        <ListComics />
                     </div>
                 </div>
             </div>

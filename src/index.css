@@ -43,10 +43,15 @@ main img {
   padding: 10px;
 }
 
-.card-img,
-.card-img img {
+.card-img {
   min-width: 100%;
 }
+
+.card-img img {
+  width: 120px;
+  height: 120px;
+}
+
 
 /* top footer */
 
