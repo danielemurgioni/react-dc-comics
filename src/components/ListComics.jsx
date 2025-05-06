@@ -1,3 +1,5 @@
+import ComicCard from "./ComicCard";
+
 const ListComics = () => {
     const comics = [
         {
@@ -155,7 +157,7 @@ const ListComics = () => {
     ];
 
     return (
-        <div>ListComics</div>
+        <ComicCard />
     )
 }
 

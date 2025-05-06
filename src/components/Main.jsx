@@ -1,9 +1,11 @@
+import ListComics from "./ListComics";
+
 const Main = () => {
     return (
         <main>
             <div className=" h-200 bg-black">
                 <div className="container">
-                    <h3>Content goes here</h3>
+                    <ListComics />
                 </div>
             </div>
             <div className="bg-blue">

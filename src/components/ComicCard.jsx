@@ -1,6 +1,6 @@
 const ComicCard = () => {
     return (
-        <div>ComicCard</div>
+        <h3>ComicCard</h3>
     )
 }
 
