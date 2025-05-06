@@ -3,9 +3,22 @@ import ListComics from "./ListComics";
 const Main = () => {
     return (
         <main>
-            <div className=" h-200 bg-black">
+            <div className="bg-black p-20">
                 <div className="container">
-                    <ListComics />
+                    <div className="d-flex flex-wrap">
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                        <ListComics />
+                    </div>
                 </div>
             </div>
             <div className="bg-blue">
